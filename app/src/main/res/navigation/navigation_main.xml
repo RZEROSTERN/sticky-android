@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_main"
+    app:startDestination="@id/stickerPackDetailFragment">
+
+    <fragment
+        android:id="@+id/stickerPackDetailFragment"
+        android:name="mx.dev1.sticky.presentation.stickers.StickerPackDetailFragment"
+        android:label="fragment_sticker_pack_detail"
+        tools:layout="@layout/fragment_sticker_pack_detail" />
+</navigation>
