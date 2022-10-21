@@ -13,16 +13,12 @@ class StickerPackDetailFragment : Fragment() {
     private var _binding: FragmentStickerPackDetailBinding? = null
     private val binding get() = _binding!!
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-    }
-
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        val binding = FragmentStickerPackDetailBinding.inflate(inflater, container, false)
+        _binding = FragmentStickerPackDetailBinding.inflate(inflater, container, false)
         initListeners()
         return binding.root
     }
