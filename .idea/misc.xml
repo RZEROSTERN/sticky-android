@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Documents/Repositories/DEV1/sticky-android/app/src/main/res/drawable/ic_icons8_whatsapp_48.xml" value="0.5435" />
+        <entry key="..\:/Documents/Repositories/DEV1/sticky-android/app/src/main/res/layout/activity_main.xml" value="0.55" />
+        <entry key="..\:/Documents/Repositories/DEV1/sticky-android/app/src/main/res/layout/fragment_sticker_pack_detail.xml" value="0.55" />
         <entry key="..\:/Users/RZEROSTERN/Documents/Repositories/DEV1/Sticky/app/src/main/res/layout/activity_main.xml" value="0.3625" />
         <entry key="..\:/Users/RZEROSTERN/Documents/Repositories/DEV1/Sticky/app/src/main/res/layout/fragment_sticker_pack_detail.xml" value="0.3625" />
       </map>

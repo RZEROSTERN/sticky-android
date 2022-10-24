@@ -6,6 +6,8 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.appcompat.app.AppCompatActivity
+import mx.dev1.sticky.MainActivity
 import mx.dev1.sticky.R
 import mx.dev1.sticky.databinding.FragmentStickerPackDetailBinding
 
@@ -17,8 +19,9 @@ class StickerPackDetailFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
         _binding = FragmentStickerPackDetailBinding.inflate(inflater, container, false)
+        (activity as AppCompatActivity).supportActionBar!!.title = "Detalle del pack"
+
         initListeners()
         return binding.root
     }
