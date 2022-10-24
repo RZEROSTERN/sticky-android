@@ -3,11 +3,16 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/navigation_main"
-    app:startDestination="@id/stickerPackDetailFragment">
+    app:startDestination="@id/homeFragment">
 
     <fragment
         android:id="@+id/stickerPackDetailFragment"
         android:name="mx.dev1.sticky.presentation.stickers.StickerPackDetailFragment"
         android:label="fragment_sticker_pack_detail"
         tools:layout="@layout/fragment_sticker_pack_detail" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="mx.dev1.sticky.presentation.stickers.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
 </navigation>
